@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
-class task4
+class Program
 {
     static void Main()
     {
         // Загрузка данных из JSON-файла
-        var jsonData = File.ReadAllText("D:\\korporaTIV\\Новая папка\\ConsoleApp1\\ConsoleApp2\\data.json");
+        var jsonData = File.ReadAllText("D:\\korporaTIV\\Новая папка\\ConsoleApp1\\ConsoleApp1\\data.json");
 
         // Десериализация JSON в объекты C#
         var data = JsonSerializer.Deserialize<JsonNode>(jsonData);
