@@ -1,0 +1,43 @@
+{
+  "students": [
+    {"student_code": "S001", "last_name": "Иванов", "first_name": "Иван", "middle_name": "Иванович"},
+    {"student_code": "S002", "last_name": "Петров", "first_name": "Петр", "middle_name": "Петрович"},
+    {"student_code": "S003", "last_name": "Никитин", "first_name": "Никита", "middle_name": "Никитич"},
+    {"student_code": "S004", "last_name": "Бобров", "first_name": "Сергей", "middle_name": "Александрович"},
+    {"student_code": "S005", "last_name": "Журавлева", "first_name": "Елена", "middle_name": "Валентиновна"}
+  ],
+  "subjects": [
+    {"subject_code": "SUB001", "name": "Математика", "lecture_hours": 30, "practice_hours": 30},
+    {"subject_code": "SUB002", "name": "Физика", "lecture_hours": 20, "practice_hours": 40},
+    {"subject_code": "SUB003", "name": "Химия", "lecture_hours": 25, "practice_hours": 35},
+    {"subject_code": "SUB004", "name": "Английский язык", "lecture_hours": 20, "practice_hours": 25},
+    {"subject_code": "SUB005", "name": "История", "lecture_hours": 15, "practice_hours": 20}
+  ],
+  "study_plan": [
+    {"student_code": "S001", "subject_code": "SUB001", "grade": 5},
+    {"student_code": "S001", "subject_code": "SUB002", "grade": 4},
+    {"student_code": "S001", "subject_code": "SUB003", "grade": 5},
+    {"student_code": "S001", "subject_code": "SUB004", "grade": 3},
+    {"student_code": "S001", "subject_code": "SUB005", "grade": 4},
+    {"student_code": "S002", "subject_code": "SUB001", "grade": 4},
+    {"student_code": "S002", "subject_code": "SUB002", "grade": 3},
+    {"student_code": "S002", "subject_code": "SUB003", "grade": 3},
+    {"student_code": "S002", "subject_code": "SUB004", "grade": 3},
+    {"student_code": "S002", "subject_code": "SUB005", "grade": 4},
+    {"student_code": "S003", "subject_code": "SUB001", "grade": 3},
+    {"student_code": "S003", "subject_code": "SUB002", "grade": 4},
+    {"student_code": "S003", "subject_code": "SUB003", "grade": 5},
+    {"student_code": "S003", "subject_code": "SUB004", "grade": 4},
+    {"student_code": "S003", "subject_code": "SUB005", "grade": 4},
+    {"student_code": "S004", "subject_code": "SUB001", "grade": 5},
+    {"student_code": "S004", "subject_code": "SUB002", "grade": 5},
+    {"student_code": "S004", "subject_code": "SUB003", "grade": 5},
+    {"student_code": "S004", "subject_code": "SUB004", "grade": 5},
+    {"student_code": "S004", "subject_code": "SUB005", "grade": 4},
+    {"student_code": "S005", "subject_code": "SUB001", "grade": 5},
+    {"student_code": "S005", "subject_code": "SUB002", "grade": 5},
+    {"student_code": "S005", "subject_code": "SUB003", "grade": 5},
+    {"student_code": "S005", "subject_code": "SUB004", "grade": 5},
+    {"student_code": "S005", "subject_code": "SUB005", "grade": 5}
+  ]
+}
